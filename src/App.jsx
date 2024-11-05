@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
 import Card from './components/Card';
+import Skills from './components/Skills';
+import AchievementShowcase from './components/AchievementShowcase';
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <About />
       <Projects />
       <Card />
+      <Skills />
+      <AchievementShowcase />
     </main>
   );
 };
