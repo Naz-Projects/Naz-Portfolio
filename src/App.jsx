@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Card from './components/Card';
 import Skills from './components/Skills';
 import AchievementShowcase from './components/AchievementShowcase';
+import Testimonials from './components/Testimonials';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Card />
       <Skills />
       <AchievementShowcase />
+      <Testimonials />
     </main>
   );
 };
