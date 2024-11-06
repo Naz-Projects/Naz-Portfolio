@@ -7,6 +7,7 @@ import Card from './components/Card';
 import Skills from './components/Skills';
 import AchievementShowcase from './components/AchievementShowcase';
 import Testimonials from './components/Testimonials';
+import ContactForm from './components/ContactForm';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Skills />
       <AchievementShowcase />
       <Testimonials />
+      <ContactForm />
     </main>
   );
 };
