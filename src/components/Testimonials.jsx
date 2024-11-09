@@ -20,7 +20,7 @@ const itemVariants = {
 const Testimonials = () => {
   return (
     <div
-      id="testimonial"
+      id="testimonials"
       className="container mx-auto mt-20 py-16 tracking-tighter">
       <h2 className="mb-12 text-center text-4xl font-semibold">
         What People Say

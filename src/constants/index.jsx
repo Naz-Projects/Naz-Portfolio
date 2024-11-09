@@ -38,7 +38,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
-  name: 'Robert Butcher',
+  name: 'Nazmul Hossain',
   info: 'Full-stack developer with a flair for graphic design.',
 };
 
