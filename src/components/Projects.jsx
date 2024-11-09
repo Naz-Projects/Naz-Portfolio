@@ -1,6 +1,18 @@
 import React from 'react';
 import { PROJECTS } from '../constants';
 import Card from './Card';
+import motion from 'framer-motion';
+const containerVariants = {
+  hidden: { opacity: 0, y: -2 },
+  visibile: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      staggerChildren: 0.4,
+    },
+  },
+};
 
 const Projects = () => {
   return (
