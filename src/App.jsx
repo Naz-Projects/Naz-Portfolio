@@ -8,7 +8,7 @@ import Skills from './components/Skills';
 import AchievementShowcase from './components/AchievementShowcase';
 import Testimonials from './components/Testimonials';
 import ContactForm from './components/ContactForm';
-
+import Footer from './components/Footer';
 const App = () => {
   return (
     <main className="overflow-x-hidden bg-black tracking-tighter text-gray-200 antialiased">
@@ -21,6 +21,7 @@ const App = () => {
       <AchievementShowcase />
       <Testimonials />
       <ContactForm />
+      <Footer />
     </main>
   );
 };
