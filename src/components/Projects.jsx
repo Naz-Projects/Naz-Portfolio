@@ -41,7 +41,7 @@ const Projects = () => {
               image={project.image}
               title={project.title}
               subtitle={project.subtitle}
-              link="#"
+              link={project.link}
             />
           </motion.div>
         ))}
