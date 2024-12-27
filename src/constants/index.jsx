@@ -17,7 +17,7 @@ import { GrDatabase } from 'react-icons/gr';
 import image1 from '../assets/project1.png';
 import image2 from '../assets/project2.png';
 import image3 from '../assets/project3.png';
-import image4 from '../assets/project4.jpeg';
+import image4 from '../assets/project4.png';
 import image5 from '../assets/project5.jpeg';
 import image6 from '../assets/project6.jpeg';
 import image7 from '../assets/project7.jpeg';
@@ -27,6 +27,7 @@ import user1 from '../assets/profile-pictures/user1.jpg';
 import user2 from '../assets/profile-pictures/user2.jpg';
 import user3 from '../assets/profile-pictures/user3.jpg';
 import user4 from '../assets/profile-pictures/user4.jpg';
+import { link } from 'framer-motion/client';
 
 export const NAVIGATION_LINKS = [
   { label: 'About', href: '#about' },
@@ -56,6 +57,13 @@ export const PROJECTS = [
       'Organization website for Muslim Association for Development in Religious Academia and Scholastic Achievement',
     image: image1,
     link: 'https://udmadrasa.org/',
+  },
+  {
+    title: 'AI Image Generator',
+    subtitle:
+      'A Full-stack MERN project using OpenAI which generates AI generated images from any prompt from any user.',
+    image: image4,
+    link: 'https://github.com/Naz-Projects/AI-Image-Generator',
   },
   {
     title: 'Dream Job',
